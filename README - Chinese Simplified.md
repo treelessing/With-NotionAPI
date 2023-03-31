@@ -7,8 +7,6 @@
 # 🗣️语言  
 [English](./README.md)
 
-
-
 [中文简体](./README - Chinese Simplified)
 
 # 🎈注意
@@ -60,7 +58,7 @@ pythons包下的文件为Stack（栈）和Queue（队列）的实现方法。
 
 ## 4. 运行
 
-你必须通过[第二步](#2. 修改必要数据)后才能完成运行NotionPage.py
+你必须通过 [第二步](#2. 修改必要数据) 后才能完成运行NotionPage.py
 
 # 🎗️For Example
 

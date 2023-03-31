@@ -64,7 +64,7 @@ In pythons packages under file is Stack and Queue.
 
 ## 4. Running
 
-You must go throught [Second Step](#2. Modify Necessarily Data) can complete running NotionPage.py.
+You must go throught  [Second Step](#2. Modify Necessarily Data)  can complete running NotionPage.py.
 
 # 🎗️For Example
 
