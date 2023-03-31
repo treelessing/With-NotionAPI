@@ -5,7 +5,9 @@
 
 # 🗣️Language  
 
-[English](./README.md)      [中文简体](./README - Chinese Simplified)
+[English](./README.md)
+
+[中文简体](./README - Chinese Simplified)
 
 # 🖼️Environment
 
