@@ -68,6 +68,10 @@ pythons包下的文件为Stack（栈）和Queue（队列）的实现方法。
 
 <iframe src="//player.bilibili.com/player.html?aid=396756725&bvid=BV15o4y1W7hw&cid=1075028392&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
+[Notion API的使用——获取豆瓣书影数据更新入Notion数据库_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV15o4y1W7hw/?spm_id_from=333.999.0.0)
+
 # 🔗其它链接
 
 [创建 Notion API](https://www.notion.so/my-integrations)
+
+[Notion API使用思路](https://www.notion.so/yapotato/Notion-API-ChatGPT-93ad50c4bcc34c608fdc1fe211d6b322?pvs=4)

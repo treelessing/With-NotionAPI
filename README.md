@@ -74,6 +74,8 @@ You must go throught  [Second Step](#2. Modify Necessarily Data)  can complete r
 
 <iframe src="//player.bilibili.com/player.html?aid=396756725&bvid=BV15o4y1W7hw&cid=1075028392&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
+[With Notion API——Contain data of the books and videos in Douban website and that update into Notion database_bilibili](https://www.bilibili.com/video/BV15o4y1W7hw/?spm_id_from=333.999.0.0)
+
 # 🔗Other Link
 
 [Create Notion API](https://www.notion.so/my-integrations)
