@@ -7,7 +7,7 @@
 # 🗣️语言  
 [English](./README.md)
 
-[中文简体](./README%20-%20Chinese Simplified)
+[中文简体](./README%20-%20Chinese%20Simplified)
 
 # 🎈注意
 
