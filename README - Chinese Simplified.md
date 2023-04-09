@@ -7,7 +7,7 @@
 # 🗣️语言  
 [English](./README.md)
 
-[中文简体](./README - Chinese Simplified)
+[中文简体](./README%20-%20Chinese Simplified)
 
 # 🎈注意
 
@@ -32,27 +32,28 @@
 
 ## 3. 文件信息
 
-- data
-  - user.py
-  - book.py
-- deal
-  - bookInfo.py
-  - NotionPage.py
-  - spider_douban.py
-- pythons
-  - base.py
+- Package
+  - data
+    - user.py
+    - book.py
+  - deal
+    - bookInfo.py
+    - spider.py
+  - pythons
+    - base.py
+- main.py
 
-![image-20230331205403009](assets/image-20230331205403009.png)
+![image-20230409200159814](assets/image-20230409200159814.png)
 
 user.py 顾名思义——存放用户数据。
 
 book.py 使其它文件引用书籍数据。
 
-bookInfo.py 处于测试阶段。
+bookInfo.py 处于测试阶段(2023 2023年4月9日增加导出图像链接为csv文件)。
 
-spider_douban.py 是爬取数据的主要方法。
+spider.py 是爬取数据的主要方法。
 
-NotionPage.py 是目前存储数据和运行的主要文件
+main.py 是目前存储数据和运行的主要文件
 
 pythons包下的文件为Stack（栈）和Queue（队列）的实现方法。
 
