@@ -13,8 +13,8 @@ from data import user
 from bs4 import BeautifulSoup
 from pythons.base import Stack
 
-data = user.user()
-class spiderWebsite():
+data = user.data()
+class deal():
     def __init__(self):
         self.stack = Stack()        # 引入栈
         self.url = data.url
@@ -67,11 +67,18 @@ class spiderWebsite():
     def Date(self):
         for div in self.get.find_all("span", {"class": "date"}):
             self.stack.push(div.text.replace("\n      读过", ""))
-
         return self.stack
 
     def comment(self):
         for div in self.get.find_all("p", {"class": "comment"}):
             self.stack.push(div.text.strip())
-
         return self.stack
+
+    def coverLink(self):
+        for div in self.get.find_all("img", {"width": "90"}):
+            self.stack.push(div.get("src"))
+        return self.stack
+
+
+if __name__ == '__main__':
+    deal().coverLink()

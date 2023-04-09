@@ -7,12 +7,13 @@
 @version: python 3.11
 @IDE: PyCharm 2023.1
 """
-from deal.spider_douban import spiderWebsite
+from deal.spider import deal
+# from user import data
 
 class book():
     def __init__(self):
         # 获取数据
-        self.spider = spiderWebsite()
+        self.spider = deal()
         self.BookTitle = self.spider.bookTitle()                # 书名
         self.spider.renew()
 
@@ -28,9 +29,14 @@ class book():
         self.comment = self.spider.comment()                       # 评论
         self.spider.renew()
 
-if __name__ == '__main__':
-    print(book().BookTitle.peek())
-    print(book().author.peek())
-    print(book().tags.peek())
-    print(book().Date.peek())
-    print(book().comment.peek())
+        self.link = self.spider.coverLink()
+        self.spider.renew()
+
+# if __name__ == '__main__':
+    # for i in range(data().maximum):
+    #     print(book().BookTitle.pop())
+    #     print(book().author.pop())
+    #     print(book().tags.pop())
+    #     print(book().Date.pop())
+    #     print(book().comment.pop())
+    #     print(book().link.pop())

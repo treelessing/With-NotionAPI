@@ -9,85 +9,21 @@
 """
 # from data.book import book
 
-class user():
+class data():
     def __init__(self):
-        self.maximum = 15    # 最大书量
+        self.maximum = 15    # 一页最大书量
 
-        self.url = "Your website URL of the douban"
+        self.url = "https://book.douban.com/mine?status=collect"
         self.cookie = {
-            "User-Agent": "",
-            "Cookie": ''
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54",
+            "Cookie": 'bid=1nEmG9g21ZM; viewed="33944838"; push_doumail_num=0; douban-fav-remind=1; ll="118296"; ct=y; loc-last-index-location-id="118296"; dbcl2="215871379:ad3LPL3tSTs"; ck=NAsM; ap_v=0,6.0; push_noty_num=0'
         }
 
-        self.Token = "You token of the Notion API"
-        self.databaseID = "DatanaseID"
+        self.Token = "secret_9yAkBCPLd5rakqZgiTqxdtGCqJTCoPQXGsA08yI8fLs"
+        self.databaseID = "c284686fbf50467898bf2c0cc224ba51"
 
         self.star = "⭐️⭐️⭐️⭐️⭐️"    # 默认: 5星
         self.status = "读完"          # 书籍状态，默认：读完
         self.bookCategory = "纸质书"   # 阅读类型，默认：纸质书
         self.bookRemark = "不发布"     # 书评，默认：不发布
         self.bookExcerpt = "尚未整理"       # 书摘，默认：尚未整理
-
-    """
-    以下内容调试中
-    """
-    #
-    # def properties(self):
-    #     return {
-    #         "状态": {
-    #             "select": {
-    #                 "name": self.status
-    #             }
-    #         },
-    #         "评分": {
-    #             "select": {
-    #                 "name": self.star
-    #             }
-    #         },
-    #         "来源": {
-    #             "select": {
-    #                 "name": self.bookCategory  # 默认: 纸质书
-    #             }
-    #         },
-    #         "短评": {
-    #             "rich_text": [
-    #                 {
-    #                     "text": {
-    #                         "content": book().comment.peek()
-    #                     }
-    #                 }
-    #             ]
-    #         },
-    #         "读完时间": {
-    #             "date": {
-    #                 "start": book().Date.peek()
-    #             }
-    #         },
-    #         "出版社": {
-    #             "select": {
-    #                 "name": str(publishingCompany)
-    #             }
-    #         },
-    #         "出版日期": {
-    #             "date": {
-    #                 "start": formatDate
-    #             }
-    #         },
-    #         "作者": {
-    #             "multi_select": author
-    #
-    #         },
-    #         "类别": {
-    #             "multi_select": categoryBook
-    #         },
-    #         "书评": {
-    #             "select": {
-    #                 "name": self.bookRemark
-    #             }
-    #         },
-    #         "书摘": {
-    #             "select": {
-    #                 "name": self.bookExcerpt
-    #             }
-    #         }
-    #     }
