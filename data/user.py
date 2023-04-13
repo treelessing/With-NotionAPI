@@ -15,12 +15,12 @@ class data():
 
         self.url = "https://book.douban.com/mine?status=collect"
         self.cookie = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54",
-            "Cookie": 'bid=1nEmG9g21ZM; viewed="33944838"; push_doumail_num=0; douban-fav-remind=1; ll="118296"; ct=y; loc-last-index-location-id="118296"; dbcl2="215871379:ad3LPL3tSTs"; ck=NAsM; ap_v=0,6.0; push_noty_num=0'
+            "User-Agent": "",
+            "Cookie": ''
         }
 
-        self.Token = "secret_9yAkBCPLd5rakqZgiTqxdtGCqJTCoPQXGsA08yI8fLs"
-        self.databaseID = "c284686fbf50467898bf2c0cc224ba51"
+        self.Token = ""
+        self.databaseID = ""
 
         self.star = "⭐️⭐️⭐️⭐️⭐️"    # 默认: 5星
         self.status = "读完"          # 书籍状态，默认：读完
